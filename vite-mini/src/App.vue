@@ -1,5 +1,5 @@
 <template>
-  <h1>Geektime</h1>
+  <h1 class="h1class">Geektime</h1>
   <h2>
     <span>count is {{count}} *2={{double}}</span>
     <button @click="count++">戳我</button>
@@ -22,6 +22,18 @@ export default {
 
 <style>
 h1{
-  color:red;
+  font-size: 500px;
+}
+</style>
+<style lang="scss">
+h1{
+  &.h1class {
+    font-size: 50px;
+  }
+}
+</style>
+<style lang="scss">
+h1{
+  font-size: 60px;
 }
 </style>
